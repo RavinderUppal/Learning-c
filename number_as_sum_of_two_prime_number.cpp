@@ -10,7 +10,7 @@ int main()
     cout<<"Eneter a positive number:";
     cin>>n;
     flag=0;
-    for (int i=2; i<n/2; i++)
+    for (int i=2; i<=n/2; i++)
     {
         if (prime_num(i)==1)
         {
@@ -31,7 +31,7 @@ int prime_num(int n)
 {
     int i,is_prime;
     is_prime = 1;
-    for (i=2; i<n; i++)
+    for (i=2; i<=n; i++)
     {
         if (n%i==0)
         {
