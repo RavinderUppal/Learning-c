@@ -204,7 +204,7 @@ void a::avail()
 
 		cout<<"\nBus No: "<<bus[n].busn<<endl;
 		cout<<"Bus Driver: "<<bus[n].driver<<"\t\tArrival Time: "<<bus[n].arrival<<\
-		"\t\tDeparture Time: "<<bus[n].depart<<"\tFrom: "<<bus[n].from<<"\t\t\To: "<<bus[n].to<<endl;
+		"\t\tDeparture Time: "<<bus[n].depart<<"\tFrom: "<<bus[n].from<<"\t\tTo: "<<bus[n].to<<endl;
 
 		vline('*');
 		cout<<"\n";
